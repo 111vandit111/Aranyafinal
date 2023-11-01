@@ -22,7 +22,7 @@ Aranya Hotel/resort in Rajasthan is 45 minutes from Jaipur ,a 60- minute drive f
 
 <br />
 <br />
-<a href={menu} target="_blank" className="btn green smallText" download="Aranya Leaflet">
+<a href={menu} target="_blank" className="btn green smallText" download="Aranya Factsheet">
      Factsheet
             </a>
 </p></div>
