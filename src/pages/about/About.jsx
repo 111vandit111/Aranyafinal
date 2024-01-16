@@ -117,7 +117,7 @@ At Aranya, we take pride in offering an organic touch with our very own farm, wh
 Escape to Aranya, where a blissful fusion of nature, luxury, and wellness awaits you. Immerse yourself in the serene surroundings and experience the epitome of relaxation and rejuvenation. Unwind, refresh, and revitalize amidst the embrace of nature's bounty and warm hospitality. Plan your staycation at Aranya and embark on a journey of total wellbeing. Book now for an unforgettable experience like no other.
 </p>       
 
-       <a className='btn green' href='tel:+919352265004'>
+       <a className='btn green' href="https://www.secure-booking-engine.com/accounts/vNH542fVOcdncZm7B5k3gw/properties/gjHs20I36NsBRyuomcgHgA/booking-engine/web/source/4wsctBw6Oq6j-g9XuxeRzQ/" target='_blank' rel="noreferrer ">
         Book Now
        </a>
 
