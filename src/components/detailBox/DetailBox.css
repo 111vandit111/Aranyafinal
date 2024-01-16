@@ -18,6 +18,11 @@
     width: 61.1805914266%;
   }
 
+
+  .detailBox .buttons{
+    display: flex;
+  }
+
   .BoxText{
     margin-right: 3.0007085086%;
     width: 85.2856130702%;

@@ -1,6 +1,7 @@
 import React , { useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
 import {AiFillInstagram , AiFillMail} from 'react-icons/ai'
+import { IoLogoWhatsapp ,IoIosCall } from "react-icons/io";
 
 import "./Contact.css";
 
@@ -18,9 +19,9 @@ const Contact = () => {
           const timeOut = setInterval(() => {
             clearTimeout(timeOut);
             setStats("green");
-            clear
             setBtnStats("Send");
-          }, 3000);
+            form.current.reset();
+          }, 1000);
           setStats("green");
           setBtnStats("Sent");
       }, (error) => {
@@ -50,8 +51,10 @@ const Contact = () => {
             Don't like forms? Slide in our DMs 😉.{" "}
           </p>{" "}
           <div className="scocials">
-              <a href="https://www.instagram.com/aranyabystories/?hl=en" target="_blank" className="insta"><AiFillInstagram /></a>
-              <a href="mailto:aranyabystories@gmail.com" target="_blank" className="mail"><AiFillMail /></a>
+          <a href="https://wa.me/918890155557" target="_blank" className="whatsapp" rel="noreferrer"><IoLogoWhatsapp  /></a>
+          <a href="tel:+918890155557" target="_blank" className="call" rel="noreferrer"><IoIosCall  /></a>
+              <a href="https://www.instagram.com/aranyabystories/?hl=en" target="_blank" className="insta" rel="noreferrer"><AiFillInstagram /></a>
+              <a href="mailto:aranyabystories@gmail.com" target="_blank" className="mail" rel="noreferrer"><AiFillMail /></a>
           </div>
         </div>{" "}
         <form action="" className="contact_form" ref={form} onSubmit={sendEmail}>

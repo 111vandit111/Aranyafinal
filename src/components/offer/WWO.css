@@ -15,7 +15,10 @@
 }
 
 .offerContainer .BaseOffer{
-    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
     padding: 25px;
     max-width: 1800px;
     margin: auto;

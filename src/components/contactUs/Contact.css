@@ -151,6 +151,20 @@
     gap: 20px;
   }
 
+  .whatsapp{
+    color: #25D366;
+    width: 40px;
+    size: 40px;
+    font-size: 40px;
+  }
+
+  .call{
+    color: rgb(48, 139, 236);
+    width: 40px;
+    size: 40px;
+    font-size: 40px;
+  }
+
   .insta{
 color: rgb(228, 64, 95);
 width: 40px;
