@@ -32,7 +32,7 @@ const Contact = () => {
           clearTimeout(timeOut);
           setStats("green");
           setBtnStats("Try again");
-          }, 3000);
+          }, 1000);
           
       });
   };

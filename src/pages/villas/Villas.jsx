@@ -71,7 +71,7 @@ const Villas = () => {
             <br />
             <br />
             <a
-              href="https://payments.djubo.com/accounts/vNH542fVOcdncZm7B5k3gw/properties/gjHs20I36NsBRyuomcgHgA/payment/custom-payment/"
+              href="https://www.secure-booking-engine.com/accounts/vNH542fVOcdncZm7B5k3gw/properties/gjHs20I36NsBRyuomcgHgA/booking-engine/web/source/4wsctBw6Oq6j-g9XuxeRzQ/"
               target="_blank"
               className="btn green smallText"
               rel="noopener noreferrer"
