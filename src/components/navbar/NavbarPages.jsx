@@ -33,6 +33,16 @@ const NavbarPages = () => {
         <li className="p__opensans"><Link to="../experiences">Experiences</Link></li>
         <li className="p__opensans"><Link to="../dining">Dining</Link></li>
         <li className="p__opensans"><Link to="../#contact">Contact</Link></li>
+        <li>
+                <a
+                  className="btn green"
+                  href="https://www.secure-booking-engine.com/accounts/vNH542fVOcdncZm7B5k3gw/properties/gjHs20I36NsBRyuomcgHgA/booking-engine/web/source/4wsctBw6Oq6j-g9XuxeRzQ/"
+                  target="_blank"
+                  rel="noreferrer "
+                >
+                  Book Now
+                </a>
+              </li>
       </ul>
     
       <div className="app__navbar-smallscreen">
@@ -47,6 +57,16 @@ const NavbarPages = () => {
               <li><Link to="../experiences" onClick={() => setToggleMenu(false)}>Experiences</Link></li>
               <li><Link to="../dining" onClick={() => setToggleMenu(false)}>Dining</Link></li>
               <li><Link to="../#contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
+              <li>
+                <a
+                  className="btn green"
+                  href="https://www.secure-booking-engine.com/accounts/vNH542fVOcdncZm7B5k3gw/properties/gjHs20I36NsBRyuomcgHgA/booking-engine/web/source/4wsctBw6Oq6j-g9XuxeRzQ/"
+                  target="_blank"
+                  rel="noreferrer "
+                >
+                  Book Now
+                </a>
+              </li>
             </ul>
           </div>
         )}
